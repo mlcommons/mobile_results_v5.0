@@ -1,0 +1,61 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : samsung
+Scenario : SingleStream
+Mode     : PerformanceOnly
+90th percentile latency (ns) : 2205233711
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Skipped
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (143).
+ * Would discard 5 highest latency queries.
+ * Early stopping 90th percentile estimate: 2211850117
+ * Not enough queries processed for 99th percentile
+ early stopping estimate (would need to process at
+ least 662 total queries).
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 0.47
+QPS w/o loadgen overhead        : 0.47
+
+Min latency (ns)                : 1976348164
+Max latency (ns)                : 2216461406
+Mean latency (ns)               : 2120703663
+50.00 percentile latency (ns)   : 2147005586
+90.00 percentile latency (ns)   : 2205233711
+95.00 percentile latency (ns)   : 2209322891
+97.00 percentile latency (ns)   : 2211978946
+99.00 percentile latency (ns)   : 2215281875
+99.90 percentile latency (ns)   : 2216461406
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 2000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 300000
+min_query_count : 1024
+max_query_count : 0
+qsl_rng_seed : 3066443479025735752
+sample_index_rng_seed : 10688027786191513374
+schedule_rng_seed : 14962580496156340209
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 1623376
+
+No warnings encountered during test.
+
+No errors encountered during test.

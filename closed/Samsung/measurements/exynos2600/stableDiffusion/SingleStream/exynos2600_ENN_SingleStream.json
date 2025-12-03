@@ -1,0 +1,8 @@
+{
+        "input_data_types": "Int32",
+        "retraining": "none",
+        "starting_weights_filename": "https://huggingface.co/benjamin-paine/stable-diffusion-v1-5",
+        "weight_data_types": "int8",
+        "activation_data_types": "int8, int16",
+        "weight_transformations": "code/stableDiffusion/Calibration_process.adoc"
+}

@@ -1,0 +1,21 @@
+{
+  "system": {
+    "Processor_name": "Samsung Exynos 2600",
+    "SoC_ID": "Exynos 2600",
+    "CPU_type_1": "",
+    "CPU_type_2": "",
+    "CPU_type_3": "",
+    "Graphics": "",
+    "Accelerator_type": "Samsung NPU",
+    "Memory": "12 GB",
+    "Storage_type_1": "LPDDR5X"
+  },
+  "notes": {
+    "Phone summary": "Samsung ERD (Exynos Reference Device)",
+    "SoC Product information": "Samsung Exynos2600"
+  },
+  "software": {
+    "OS_version": "Android 16",
+    "Vendor SDK":"ENN 2.4.15"
+  }
+}
